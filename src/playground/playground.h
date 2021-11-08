@@ -3,7 +3,7 @@
 
 // Include GLEW
 #include <GL/glew.h>
-#include "../../../bin/tetrisBlock.h"
+#include "tetrisBlock.h"
 
 #include <./playground/playground.h>
 
