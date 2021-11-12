@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{62C31293-FB35-3F1A-8E69-B13250B611B1}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-SC:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src" "-BC:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin" --check-stamp-file "C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-SC:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src" "-BC:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin" --check-stamp-file "C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-SC:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src" "-BC:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin" --check-stamp-file "C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-SC:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src" "-BC:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin" --check-stamp-file "C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/external/glfw-3.1.2/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindDoxygen.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\cmake_uninstall.cmake.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\docs\Doxyfile.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\src\glfw3.pc.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\src\glfw3Config.cmake.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\ZERO_CHECK.vcxproj">
+      <Project>{20F6B26F-9A83-3731-B158-F729377E64BB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\examples\boing.vcxproj">
+      <Project>{E6C37E13-A291-3E09-B3AC-5CD6750634E0}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\tests\clipboard.vcxproj">
+      <Project>{784BD512-AB1C-3586-935A-A9C21371E2D7}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\tests\cursor.vcxproj">
+      <Project>{AF146355-A078-333A-A3E8-4906B701EB6E}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\tests\empty.vcxproj">
+      <Project>{7649F453-948B-3DD4-BF84-AEC32289AECE}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\tests\events.vcxproj">
+      <Project>{5123F7A5-C17D-3119-BCEE-23DF7E8284FD}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\tests\gamma.vcxproj">
+      <Project>{6CC530BF-1B56-37B1-9927-47341EA758DA}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\examples\gears.vcxproj">
+      <Project>{59EF3682-91C6-33C6-8819-9B477988A699}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\src\glfw.vcxproj">
+      <Project>{F298F935-2B15-350D-9C9C-602AAD393990}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\tests\glfwinfo.vcxproj">
+      <Project>{BF3FC028-19F4-325B-B7E0-E003000EE06A}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\examples\heightmap.vcxproj">
+      <Project>{0A8EC9B1-7D06-3807-91ED-A62667836991}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\tests\iconify.vcxproj">
+      <Project>{043D269A-F370-3267-B2CC-CA9EF419ABA9}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\tests\joysticks.vcxproj">
+      <Project>{BD904855-B0BB-31A9-8977-2C2BCAC15982}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\tests\monitors.vcxproj">
+      <Project>{5BFE850C-4BD7-3A9F-A45B-8927604BD72D}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\tests\msaa.vcxproj">
+      <Project>{AEDBF6E4-EEDF-3CCA-8B87-5DB3C744F680}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\examples\particles.vcxproj">
+      <Project>{DE870922-17BA-3BA6-BB38-FD933F508777}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\tests\reopen.vcxproj">
+      <Project>{3AC89327-7960-3283-ADF5-C88A982B3D65}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\tests\sharing.vcxproj">
+      <Project>{9BBBC143-2554-3D8D-BE2A-8C5F74CDB2CC}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\examples\simple.vcxproj">
+      <Project>{B69D7D99-CD9A-3DB1-9C08-A8E71F5EAC58}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\examples\splitview.vcxproj">
+      <Project>{FE94DF58-2203-3A61-877F-E6A21A4D6376}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\tests\tearing.vcxproj">
+      <Project>{C9531B97-8A0E-3965-8A69-7A4FCBA5E91F}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\tests\threads.vcxproj">
+      <Project>{266BC411-80F9-3376-A15E-F62195776F2A}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\tests\title.vcxproj">
+      <Project>{A2AC8F6D-F9D7-34BC-BD70-951A83612C04}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\examples\wave.vcxproj">
+      <Project>{46A7B2DD-BDA5-31E4-A460-09997F5BEC47}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\tests\windows.vcxproj">
+      <Project>{A2DB5349-0854-39BF-B56C-268EAF51C9AA}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

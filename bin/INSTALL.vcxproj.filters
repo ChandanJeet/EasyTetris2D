@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\834f125e4500879a57077359a26180c0\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CA9AB4F3-F154-3E41-8EA0-179EBDC772E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

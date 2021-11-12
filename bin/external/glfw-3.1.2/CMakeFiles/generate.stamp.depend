@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+C:/Program Files (x86)/CMake/share/cmake-3.22/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files (x86)/CMake/share/cmake-3.22/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.22/Modules/CheckIncludeFile.c.in
+C:/Program Files (x86)/CMake/share/cmake-3.22/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.22/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.22/Modules/FindDoxygen.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.22/Modules/FindOpenGL.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.22/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.22/Modules/FindThreads.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.22/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/external/glfw-3.1.2/CMakeLists.txt
+C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/external/glfw-3.1.2/cmake_uninstall.cmake.in
+C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/external/glfw-3.1.2/docs/Doxyfile.in
+C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/external/glfw-3.1.2/src/glfw3.pc.in
+C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/external/glfw-3.1.2/src/glfw3Config.cmake.in
+C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/external/glfw-3.1.2/src/glfw_config.h.in

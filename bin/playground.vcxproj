@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A6B8E493-5788-3562-BC2D-A86211BBECEB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>playground</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">playground.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">playground</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">playground.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">playground</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">playground.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">playground</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">playground.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">playground</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\include\GLFW;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glm-0.9.7.1;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glew-1.13.0\include;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\include\GLFW;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glm-0.9.7.1;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glew-1.13.0\include;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\include\GLFW;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glm-0.9.7.1;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glew-1.13.0\include;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy "C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/$(Configuration)/playground.exe" "C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/playground/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;external\glfw-3.1.2\src\Debug\glfw3.lib;external\Debug\GLEW_1130.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/Debug/playground.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/Debug/playground.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\include\GLFW;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glm-0.9.7.1;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glew-1.13.0\include;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\include\GLFW;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glm-0.9.7.1;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glew-1.13.0\include;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\include\GLFW;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glm-0.9.7.1;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glew-1.13.0\include;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy "C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/$(Configuration)/playground.exe" "C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/playground/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;external\glfw-3.1.2\src\Release\glfw3.lib;external\Release\GLEW_1130.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/Release/playground.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/Release/playground.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\include\GLFW;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glm-0.9.7.1;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glew-1.13.0\include;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\include\GLFW;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glm-0.9.7.1;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glew-1.13.0\include;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\include\GLFW;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glm-0.9.7.1;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glew-1.13.0\include;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy "C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/$(Configuration)/playground.exe" "C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/playground/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;external\glfw-3.1.2\src\MinSizeRel\glfw3.lib;external\MinSizeRel\GLEW_1130.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/MinSizeRel/playground.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/MinSizeRel/playground.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\include\GLFW;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glm-0.9.7.1;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glew-1.13.0\include;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\include\GLFW;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glm-0.9.7.1;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glew-1.13.0\include;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glfw-3.1.2\include\GLFW;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glm-0.9.7.1;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\glew-1.13.0\include;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E copy "C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/$(Configuration)/playground.exe" "C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/playground/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;external\glfw-3.1.2\src\RelWithDebInfo\glfw3.lib;external\RelWithDebInfo\GLEW_1130.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/RelWithDebInfo/playground.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/RelWithDebInfo/playground.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-SC:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src" "-BC:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin" --check-stamp-file "C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeRCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\3.22.0-rc2\CMakeCCompiler.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\3.22.0-rc2\CMakeCXXCompiler.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\3.22.0-rc2\CMakeRCCompiler.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\3.22.0-rc2\CMakeSystem.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-SC:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src" "-BC:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin" --check-stamp-file "C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeRCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\3.22.0-rc2\CMakeCCompiler.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\3.22.0-rc2\CMakeCXXCompiler.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\3.22.0-rc2\CMakeRCCompiler.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\3.22.0-rc2\CMakeSystem.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-SC:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src" "-BC:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin" --check-stamp-file "C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeRCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\3.22.0-rc2\CMakeCCompiler.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\3.22.0-rc2\CMakeCXXCompiler.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\3.22.0-rc2\CMakeRCCompiler.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\3.22.0-rc2\CMakeSystem.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" "-SC:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/src" "-BC:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin" --check-stamp-file "C:/Users/chje272771/Documents/_Lectures/Winter Semester 2021-2022/CG/bin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeRCCompiler.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeSystem.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\3.22.0-rc2\CMakeCCompiler.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\3.22.0-rc2\CMakeCXXCompiler.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\3.22.0-rc2\CMakeRCCompiler.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\3.22.0-rc2\CMakeSystem.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\playground\tetrisBlock.cpp" />
+    <ClCompile Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\playground\playground.cpp" />
+    <ClInclude Include="..\src\playground\tetrisBlock.h" />
+    <ClInclude Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\playground\playground.h" />
+    <None Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\playground\SimpleFragmentShader.fragmentshader">
+    </None>
+    <None Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\playground\SimpleVertexShader.vertexshader">
+    </None>
+    <ClCompile Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\common\shader.cpp" />
+    <ClInclude Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\common\shader.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\ZERO_CHECK.vcxproj">
+      <Project>{20F6B26F-9A83-3731-B158-F729377E64BB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\GLEW_1130.vcxproj">
+      <Project>{52775115-EC49-3E0E-86D5-C779C561F2F6}</Project>
+      <Name>GLEW_1130</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\bin\external\glfw-3.1.2\src\glfw.vcxproj">
+      <Project>{F298F935-2B15-350D-9C9C-602AAD393990}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

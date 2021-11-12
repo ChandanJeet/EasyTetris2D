@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\playground\playground.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\common\shader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\playground\tetrisBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\playground\playground.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\common\shader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\playground\tetrisBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\playground\SimpleFragmentShader.fragmentshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\chje272771\Documents\_Lectures\Winter Semester 2021-2022\CG\src\playground\SimpleVertexShader.vertexshader">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DEA4D175-4A29-35BD-B925-3A9813885720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ADACCD6F-035E-3BC5-92FE-416E91CA7529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{414172C4-262D-39BE-83FE-61D4C4C93F97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{3202FFB2-B808-3D89-A2B5-B2135451742D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
